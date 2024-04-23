@@ -1,0 +1,44 @@
+/*ESTILO GERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+}
+
+h2.titulo{
+    color:rgb(255, 255, 255);
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #1d9dd8;
+}
+
+.interface{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #1d9dd8;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px #08278b;
+}

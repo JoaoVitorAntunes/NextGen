@@ -1,0 +1,76 @@
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
+
+.topo-do-site h1{
+    color: rgb(255, 255, 255);
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-esquerdo p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 40px 0;
+}
+
+.topo-do-site .img-direito img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+
+    100%{
+        top: 40px;
+    }
+}
+
+
+/*Segunda section*/
+section.especialidades{
+    color: white;
+    padding: 50px 4%;
+}
+
+section.especialidades .flex{
+    gap: 60px;
+
+}
+
+.especialidades .especialidades-box{
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #1d9dd8;
+}
+
+.especialidades .especialidades-box i{
+    font-size: 90px;
+    color:#1d9dd8;
+}
+
+.especialidades-box h3{
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.especialidades-box p{
+    margin-top: 25px;
+}
